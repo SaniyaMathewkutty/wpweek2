@@ -7,9 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Things to Do for Week Two';
-  thingstoAccomplish= [
+  thingstoAccomplish= [ // populate this array with the following
     'Brush up on JavaScript',
     'Come to grips with SQL',
     'Master programming'
   ];
+  thingsDone=[]; // empty array 
 }
