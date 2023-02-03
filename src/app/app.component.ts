@@ -12,5 +12,11 @@ export class AppComponent {
     'Come to grips with SQL',
     'Master programming'
   ];
+
   thingsDone=[]; // empty array 
+
+  // Summary function
+  TaskSummary():string {
+    return `${this.thingstoAccomplish.length} to do / ${this.thingsDone.length} completed`;
+  }
 }
