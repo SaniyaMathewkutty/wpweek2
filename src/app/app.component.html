@@ -1,5 +1,9 @@
 <h1>{{title}}</h1>
 <!-- The *ngFor loop iterates through the array in the .ts file
   > The loop variable created locally within app.component.html
+
+    <p *ngFor="let item of thingstoAccomplish;">{{item}}</p>
+
 -->
-<p *ngFor="let item of thingstoAccomplish;">{{item}}</p>
+<p *ngFor="let item of thingstoAccomplish;
+           let i=index;">({{i+1}}) {{item}}</p> <!-- getting the index 'i' and start at 1-->
