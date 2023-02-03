@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'week2';
+  title = 'Things to Do for Week Two';
+  thingstoAccomplish= [
+    'Brush up on JavaScript',
+    'Come to grips with SQL',
+    'Master programming'
+  ];
 }
